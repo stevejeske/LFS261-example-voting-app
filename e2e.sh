@@ -11,6 +11,8 @@ docker-compose up -d
 
 docker-compose ps
 
+sleep 10
+
 docker-compose run --rm e2e
 
 docker-compose down 
